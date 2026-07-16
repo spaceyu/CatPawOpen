@@ -121,8 +121,9 @@ cms: [
   {name: "🔞色猫", address: "http://caiji.semaozy.net/inc/apijson_vod.php"},
   {name: "🔞黑料X", address: "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list"},
   {name: "🔞香蕉", address: "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list"},
-  {name: "🔞百万", address: "https://api.bwzyz.com/api.php/provide/vod/at/json"}
-],
+  {name: "🔞百万", address: "https://api.bwzyz.com/api.php/provide/vod/at/json"},
+  ],
+  
   color: [
     {
       light: {
