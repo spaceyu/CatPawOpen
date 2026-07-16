@@ -89,9 +89,9 @@ export default {
     {
       name: "暴风资源",
       address: "https://bfzyapi.com/api.php/provide/vod/"
-    }
+    },
   ],
-  cms: [
+cms: [
   {name: "🔞滴滴1234", address: "https://api.ddapi.cc/api.php/provide/vod"},
   {name: "🔞鸡坤", address: "https://jkunzyapi.com/api.php/provide/vod"},
   {name: "🔞TG资源", address: "https://tgzyz.pp.ua/api.php/provide/vod"},
@@ -122,7 +122,7 @@ export default {
   {name: "🔞黑料X", address: "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list"},
   {name: "🔞香蕉", address: "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list"},
   {name: "🔞百万", address: "https://api.bwzyz.com/api.php/provide/vod/at/json"}
-]},
+],
   color: [
     {
       light: {
