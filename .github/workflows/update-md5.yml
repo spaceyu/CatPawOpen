@@ -1,0 +1,23 @@
+name: Update index.config.js.md5
+
+on:
+  push:
+    paths:
+      - 'index.config.js'
+
+jobs:
+  update-md5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update index.config.js.md5
+        run: |
+          md5sum index.config.js | awk '{print $1}' > index.config.js.md5
+
+      - name: Commit if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add index.config.js.md5
+          git commit -m "Update index.config.js.md5" || exit 0
